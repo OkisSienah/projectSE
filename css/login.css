@@ -1,0 +1,78 @@
+/* Body */
+body {
+    margin: 0;
+    color: #744C4D;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    }
+    .Container {
+        width: auto;
+        height: 100%;
+        margin: 0;
+        background-color: white;
+    } 
+/* Login */
+.Login {
+  width: auto;
+  height: 890px;
+  background-image: url(../assets/Login_Bg.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}          
+.Login_Form{
+  height: 400px;
+  width: 50%;
+  float: right;
+}
+.Login_Form input[type=password]{
+  border-radius: 20px;
+  background-color: #F4EEDF;
+  transform: translate(15%, 700%);
+  margin-bottom: 30px;
+  width: 500px;
+  height: 50px;
+  padding: 10px;
+}
+.Login_Form input[type=text]{
+  border-radius: 20px;
+  background-color: #F4EEDF;
+  transform: translate(15%, 700%);
+  margin-bottom: 30px;
+  width: 500px;
+  height: 50px;
+  padding: 10px;
+}
+.Login_Form button[type=submit]{
+  border-radius: 20px;
+  background-color: #F4EEDF;
+  transform: translate(120%, 750%);
+  margin-bottom: 10px;
+  width: 200px;
+  height: 50px;
+}
+.button[type=submit] a{
+  text-decoration: none;
+  color: #744C4D;
+}
+
+.Link1{
+  height: auto;
+  width: 50%;
+  float: left;
+  transform: translate(160%, 880%);
+  margin: 10px;
+}
+.Link1 a{
+  text-decoration: none;
+  color: #744C4D;
+}
+.Link2 a{
+  text-decoration: none;
+  color: #744C4D;
+}
+.Link2{
+  height: auto;
+  width: 50%;
+  float: left   ;
+  transform: translate(120%, 685%);
+  margin: 10px;
+}
