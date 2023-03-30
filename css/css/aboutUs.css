@@ -1,0 +1,167 @@
+/* Body */
+body {
+    margin: 0;
+    }
+    .Container {
+        width: auto;
+        height: 100%;
+        margin: 0;
+        background-color: white;
+    } 
+
+/* Top Nav*/
+.Logo img{
+    height: 100px;
+    width: 300px;
+}
+.Logo {     
+  transform: translate(0%, 18%);
+  height: 100px;
+  width: 500px;
+    float: left;
+    margin: 0%;
+    margin-left: 8%;
+    padding: 0%;
+}
+.Topnav {
+    background-color: #F4EEDF;
+    overflow: hidden;
+    height: 130px;
+  }
+  .Menu a {
+    height: 150px;
+    text-shadow: 2px 2px 0px black;
+    color: #d9f2cc;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 28px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+  }
+  .Topnav a:hover {
+    color: white;
+  }
+  .Menu{
+    width: auto;
+    height: 150px;
+    margin: 0%;
+    transform: translate(-10%, 35%);
+    
+  }
+  .Topnav a.active {
+    background-color: white;
+    border-radius: 30px;
+  }
+  .Topnav a.active:hover {
+    color: #C8DBBE;
+    border-radius: 30px;
+  }
+.Tabenori1{
+  width: auto;
+  height: 600px;
+  background-image: url(../assets/1.png);
+  background-size: 100%;
+}
+.Tabenori2{
+  width: auto;
+  height: 600px;
+  background-image: url(../assets/2.png);
+  background-size: 100%;
+}
+.Tabenori3{
+  width: auto;
+  height: 600px;
+  background-image: url(../assets/3.png);
+  background-size: 100%;
+}
+.Tabenori4{
+  width: auto;
+  height: 800px;
+  background-image: url(../assets/4.png);
+  background-size: 100%;
+}
+      /*footer*/
+      .footer {
+        padding-top: 3%;
+        padding-left: 5%;
+        height: 412px;
+        width: auto;
+        background-image: url(../assets/bgFooter.png);
+        background-size: 100%;
+    }    
+    .kalimat-footer{
+        float: left;
+        width: 35%;
+        transform: translate(50%, 50%);
+    }
+    .email-box{
+        font-size: 25px;
+        float: left;
+        transform: translate(-51%, 600%);
+    }
+   #email{
+        background: linear-gradient(
+        to right bottom, 
+        rgba(255, 255, 255, 0.556),
+        rgba(255, 255, 255, 0.3)
+      );
+      border: 1px solid black;
+    }
+    #email:hover {
+        background-color: rgb(172, 221, 186);
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+    .icon-button {
+        background-color: #fff;
+        border: 1px solid black;
+        cursor: pointer;
+        border-radius: 50px;
+        background: linear-gradient(
+            to right bottom, 
+            rgba(255, 255, 255, 0.556),
+            rgba(255, 255, 255, 0.3)
+          );
+      }
+      
+      .icon-button i {
+        color: #000;
+      }
+      .icon-button:hover{
+        background-color: rgb(172, 221, 186);
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      }
+       /*bot-nav*/
+     .bot-nav {
+        background-color: white;
+        overflow: hidden;
+        height: 50px;
+      }
+      .menu2 a {
+        height: 150px;
+        text-shadow: 2px 2px 0px black;
+        color: #d9f2cc;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: "Comic Sans MS", "Comic Sans", cursive;
+      }
+      .menu2 a:hover {
+        color: white;
+      }
+      .menu2{
+        width: 50%;
+        height: 50px;
+        margin: 0%;
+        float: right;
+        transform: translate(40%, 15%);
+        
+      }
+      .bot-nav a.active {
+        background-color: white;
+        border-radius: 30px;
+      }
+      .bot-nav a.active:hover {
+        color: #C8DBBE;
+        border-radius: 30px;
+      }           
