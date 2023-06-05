@@ -1,0 +1,1567 @@
+/* Media Screen */
+
+@media screen and (max-width: 1669px) {
+    #onigiri1 {
+        transform: translate(-300%, 189%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-100%, 189%);
+    }
+    
+    #onigiri3 {
+        transform: translate(100%, 189%);
+    }
+    
+    #onigiri4 {
+        transform: translate(300%, 189%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 1635px) {
+    #onigiri1 {
+        transform: translate(-300%, 180%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-100%, 180%);
+    }
+    
+    #onigiri3 {
+        transform: translate(100%, 180%);
+    }
+    
+    #onigiri4 {
+        transform: translate(300%, 180%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 1585px) {
+    #onigiri1 {
+        transform: translate(-300%, 175%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-100%, 175%);
+    }
+    
+    #onigiri3 {
+        transform: translate(100%, 175%);
+    }
+    
+    #onigiri4 {
+        transform: translate(300%, 175%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 1560px) {
+    #onigiri1 {
+        transform: translate(-270%, 170%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-100%, 170%);
+    }
+    
+    #onigiri3 {
+        transform: translate(100%, 170%);
+    }
+    
+    #onigiri4 {
+        transform: translate(270%, 170%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 1540px) {
+    #onigiri1 {
+        transform: translate(-270%, 165%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-100%, 165%);
+    }
+    
+    #onigiri3 {
+        transform: translate(100%, 165%);
+    }
+    
+    #onigiri4 {
+        transform: translate(270%, 165%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 1510px) {
+    #onigiri1 {
+        transform: translate(-270%, 160%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-100%, 160%);
+    }
+    
+    #onigiri3 {
+        transform: translate(100%, 160%);
+    }
+    
+    #onigiri4 {
+        transform: translate(270%, 160%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 1446px) {
+    .footer-center {
+        width: 49%;
+    }
+}
+
+@media screen and (max-width: 1434px) {
+    #onigiri1 {
+        transform: translate(-270%, 155%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-100%, 155%);
+    }
+    
+    #onigiri3 {
+        transform: translate(100%, 155%);
+    }
+    
+    #onigiri4 {
+        transform: translate(270%, 155%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    #onigiri1 {
+        transform: translate(-270%, 150%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-100%, 150%);
+    }
+    
+    #onigiri3 {
+        transform: translate(100%, 150%);
+    }
+    
+    #onigiri4 {
+        transform: translate(270%, 150%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 1379px) {
+    #onigiri1 {
+        transform: translate(-250%, 148%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-80%, 148%);
+    }
+    
+    #onigiri3 {
+        transform: translate(80%, 148%);
+    }
+    
+    #onigiri4 {
+        transform: translate(250%, 148%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 1340px) {
+    #onigiri1 {
+        transform: translate(-250%, 145%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-80%, 145%);
+    }
+    
+    #onigiri3 {
+        transform: translate(80%, 145%);
+    }
+    
+    #onigiri4 {
+        transform: translate(250%, 145%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 1317px) {
+    .footer-center {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 1313px) {
+    #onigiri1 {
+        transform: translate(-250%, 140%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-80%, 140%);
+    }
+    
+    #onigiri3 {
+        transform: translate(80%, 140%);
+    }
+    
+    #onigiri4 {
+        transform: translate(250%, 140%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 1288px) {
+    .onigiri:hover img {
+        transform: scale(1.1);
+        opacity: 0.3;
+        filter: blur(3px);
+        -webkit-filter: blur(3px);
+    }
+
+    #onigiri1 {
+        transform: translate(-250%, 136%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-80%, 136%);
+    }
+    
+    #onigiri3 {
+        transform: translate(80%, 136%);
+    }
+    
+    #onigiri4 {
+        transform: translate(250%, 136%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 1258px) {
+
+    #onigiri1 {
+        transform: translate(-230%, 130%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-80%, 130%);
+    }
+    
+    #onigiri3 {
+        transform: translate(80%, 130%);
+    }
+    
+    #onigiri4 {
+        transform: translate(230%, 130%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 1242px) {
+    .footer-center {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 1215px) {
+    .footer-center {
+        width: 47%;
+    }
+
+    #onigiri1 {
+        transform: translate(-230%, 125%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-80%, 125%);
+    }
+    
+    #onigiri3 {
+        transform: translate(80%, 125%);
+    }
+    
+    #onigiri4 {
+        transform: translate(230%, 125%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 1182px) {
+    .onigiri:hover img {
+        transform: scale(1.1);
+        opacity: 0.3;
+        filter: blur(3px);
+        -webkit-filter: blur(3px);
+    }
+
+    #onigiri1 {
+        transform: translate(-210%, 120%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-70%, 120%);
+    }
+    
+    #onigiri3 {
+        transform: translate(70%, 120%);
+    }
+    
+    #onigiri4 {
+        transform: translate(210%, 120%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 1141px) {
+    #onigiri1 {
+        transform: translate(-210%, 115%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-70%, 115%);
+    }
+    
+    #onigiri3 {
+        transform: translate(70%, 115%);
+    }
+    
+    #onigiri4 {
+        transform: translate(210%, 115%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 1117px) {
+    .footer-center {
+        width: 46%;
+    }
+}
+
+@media screen and (max-width: 1116px) {
+    #onigiri1 {
+        transform: translate(-210%, 110%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-70%, 110%);
+    }
+    
+    #onigiri3 {
+        transform: translate(70%, 110%);
+    }
+    
+    #onigiri4 {
+        transform: translate(210%, 110%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #onigiri1 {
+        transform: translate(-210%, 105%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-70%, 105%);
+    }
+    
+    #onigiri3 {
+        transform: translate(70%, 105%);
+    }
+    
+    #onigiri4 {
+        transform: translate(210%, 105%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    #onigiri1 {
+        transform: translate(-190%, 105%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-60%, 105%);
+    }
+    
+    #onigiri3 {
+        transform: translate(60%, 105%);
+    }
+    
+    #onigiri4 {
+        transform: translate(190%, 105%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .footer-center {
+        width: 45%;
+    }
+
+    #onigiri1 {
+        transform: translate(-180%, 95%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-60%, 95%);
+    }
+    
+    #onigiri3 {
+        transform: translate(60%, 95%);
+    }
+    
+    #onigiri4 {
+        transform: translate(180%, 95%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 1077px) {
+    #onigiri1 {
+        transform: translate(-180%, 105%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-60%, 105%);
+    }
+    
+    #onigiri3 {
+        transform: translate(60%, 105%);
+    }
+    
+    #onigiri4 {
+        transform: translate(180%, 105%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 1047px) {
+    .footer-center {
+        width: 45%;
+    }
+
+    #onigiri1 {
+        transform: translate(-190%, 100%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-60%, 100%);
+    }
+    
+    #onigiri3 {
+        transform: translate(60%, 100%);
+    }
+    
+    #onigiri4 {
+        transform: translate(190%, 100%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 988px) {
+    #onigiri1 {
+        transform: translate(-180%, 90%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-60%, 90%);
+    }
+    
+    #onigiri3 {
+        transform: translate(60%, 90%);
+    }
+    
+    #onigiri4 {
+        transform: translate(180%, 90%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .footer-center {
+        width: 44%;
+    }
+}
+
+@media screen and (max-width: 965px) {
+    .logo {
+        text-align: center;
+    }
+
+    nav {
+        display: block;
+        position: relative;
+    }
+
+    .menu {
+        display: block;
+        text-align: center;
+        height: 24.5vh;
+    }
+
+    .menu a {
+        font-size: 20px;
+    }
+
+    #onigiri1 {
+        transform: translate(-180%, 90%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-60%, 90%);
+    }
+    
+    #onigiri3 {
+        transform: translate(60%, 90%);
+    }
+    
+    #onigiri4 {
+        transform: translate(180%, 90%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .copyright {
+        padding-top: 10px;
+    }
+
+    .footer-left, .footer-center, .footer-right {
+        padding: 5px;
+        width: 100%;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    #onigiri1 {
+        transform: translate(-175%, 100%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-60%, 100%);
+    }
+    
+    #onigiri3 {
+        transform: translate(60%, 100%);
+    }
+    
+    #onigiri4 {
+        transform: translate(175%, 100%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+
+    .onigiri img {
+        max-width: 100%;
+        width: 180px;
+        transition: 1s;
+    }
+
+    #text1 {
+        transform: translate(100%, -175%);
+    }
+    
+    #text2 {
+        transform: translate(55%, -180%);
+    }
+    
+    #text3 {
+        transform: translate(45%, -305%);
+    }
+    
+    #text4 {
+        transform: translate(97%, -175%);
+    }
+}
+
+@media screen and (max-width: 916px) {
+    #onigiri1 {
+        transform: translate(-175%, 98%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-60%, 98%);
+    }
+    
+    #onigiri3 {
+        transform: translate(60%, 98%);
+    }
+    
+    #onigiri4 {
+        transform: translate(175%, 98%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #onigiri1 {
+        transform: translate(-175%, 95%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-60%, 95%);
+    }
+    
+    #onigiri3 {
+        transform: translate(60%, 95%);
+    }
+    
+    #onigiri4 {
+        transform: translate(175%, 95%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 886px) {
+    #onigiri1 {
+        transform: translate(-175%, 90%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-60%, 90%);
+    }
+    
+    #onigiri3 {
+        transform: translate(60%, 90%);
+    }
+    
+    #onigiri4 {
+        transform: translate(175%, 90%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 859px) {
+    #onigiri1 {
+        transform: translate(-175%, 87%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-60%, 87%);
+    }
+    
+    #onigiri3 {
+        transform: translate(60%, 87%);
+    }
+    
+    #onigiri4 {
+        transform: translate(175%, 87%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 834px) {
+    .text {
+        font-size: 20px;
+    }
+
+    #onigiri1 {
+        transform: translate(-175%, 100%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-60%, 100%);
+    }
+    
+    #onigiri3 {
+        transform: translate(60%, 100%);
+    }
+    
+    #onigiri4 {
+        transform: translate(175%, 100%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+
+    .onigiri img {
+        max-width: 100%;
+        width: 160px;
+        transition: 1s;
+    }
+
+    #text1 {
+        transform: translate(115%, -185%);
+    }
+    
+    #text2 {
+        transform: translate(65%, -190%);
+    }
+    
+    #text3 {
+        transform: translate(55%, -330%);
+    }
+    
+    #text4 {
+        transform: translate(115%, -185%);
+    }
+}
+
+@media screen and (max-width: 810px) {
+    #onigiri1 {
+        transform: translate(-175%, 95%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-60%, 95%);
+    }
+    
+    #onigiri3 {
+        transform: translate(60%, 95%);
+    }
+    
+    #onigiri4 {
+        transform: translate(175%, 95%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 795px) {
+    #onigiri1 {
+        transform: translate(-175%, 95%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-60%, 95%);
+    }
+    
+    #onigiri3 {
+        transform: translate(60%, 95%);
+    }
+    
+    #onigiri4 {
+        transform: translate(175%, 95%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    #onigiri1 {
+        transform: translate(-175%, 88%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-60%, 88%);
+    }
+    
+    #onigiri3 {
+        transform: translate(60%, 88%);
+    }
+    
+    #onigiri4 {
+        transform: translate(175%, 88%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    #onigiri1 {
+        transform: translate(-175%, 85%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-60%, 85%);
+    }
+    
+    #onigiri3 {
+        transform: translate(60%, 85%);
+    }
+    
+    #onigiri4 {
+        transform: translate(175%, 85%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    #onigiri1 {
+        transform: translate(-175%, 100%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-60%, 100%);
+    }
+    
+    #onigiri3 {
+        transform: translate(60%, 100%);
+    }
+    
+    #onigiri4 {
+        transform: translate(175%, 100%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+
+    .onigiri img {
+        max-width: 100%;
+        width: 140px;
+        transition: 1s;
+    }
+
+    #text1 {
+        transform: translate(95%, -170%);
+    }
+    
+    #text2 {
+        transform: translate(50%, -175%);
+    }
+    
+    #text3 {
+        transform: translate(40%, -300%);
+    }
+    
+    #text4 {
+        transform: translate(95%, -170%);
+    }
+}
+
+@media screen and (max-width: 706px) {
+    #onigiri1 {
+        transform: translate(-175%, 95%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-60%, 95%);
+    }
+    
+    #onigiri3 {
+        transform: translate(60%, 95%);
+    }
+    
+    #onigiri4 {
+        transform: translate(175%, 95%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    #onigiri1 {
+        transform: translate(-175%, 95%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-60%, 95%);
+    }
+    
+    #onigiri3 {
+        transform: translate(60%, 95%);
+    }
+    
+    #onigiri4 {
+        transform: translate(175%, 95%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    #onigiri1 {
+        transform: translate(-175%, 90%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-60%, 90%);
+    }
+    
+    #onigiri3 {
+        transform: translate(60%, 90%);
+    }
+    
+    #onigiri4 {
+        transform: translate(175%, 90%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 667px) {
+    #onigiri1 {
+        transform: translate(-175%, 85%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-60%, 85%);
+    }
+    
+    #onigiri3 {
+        transform: translate(60%, 85%);
+    }
+    
+    #onigiri4 {
+        transform: translate(175%, 85%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 647px) {
+    #onigiri1 {
+        transform: translate(-175%, 85%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-60%, 85%);
+    }
+    
+    #onigiri3 {
+        transform: translate(60%, 85%);
+    }
+    
+    #onigiri4 {
+        transform: translate(175%, 85%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .text {
+        font-size: 18px;
+    }
+
+    #onigiri1 {
+        transform: translate(-175%, 100%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-60%, 100%);
+    }
+    
+    #onigiri3 {
+        transform: translate(60%, 100%);
+    }
+    
+    #onigiri4 {
+        transform: translate(175%, 100%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+
+    .onigiri img {
+        max-width: 100%;
+        width: 120px;
+        transition: 1s;
+    }
+
+    #text1 {
+        transform: translate(90%, -165%);
+    }
+    
+    #text2 {
+        transform: translate(48%, -170%);
+    }
+    
+    #text3 {
+        transform: translate(40%, -280%);
+    }
+    
+    #text4 {
+        transform: translate(90%, -165%);
+    }
+}
+
+@media screen and (max-width: 620px) {
+    #onigiri1 {
+        transform: translate(-175%, 95%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-60%, 95%);
+    }
+    
+    #onigiri3 {
+        transform: translate(60%, 95%);
+    }
+    
+    #onigiri4 {
+        transform: translate(175%, 95%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 595px) {
+    #onigiri1 {
+        transform: translate(-175%, 90%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-60%, 90%);
+    }
+    
+    #onigiri3 {
+        transform: translate(60%, 90%);
+    }
+    
+    #onigiri4 {
+        transform: translate(175%, 90%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    #onigiri1 {
+        transform: translate(-175%, 85%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-60%, 85%);
+    }
+    
+    #onigiri3 {
+        transform: translate(60%, 85%);
+    }
+    
+    #onigiri4 {
+        transform: translate(175%, 85%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .text {
+        font-size: 16px;
+    }
+
+    #onigiri1 {
+        transform: translate(-175%, 110%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-60%, 110%);
+    }
+    
+    #onigiri3 {
+        transform: translate(60%, 110%);
+    }
+    
+    #onigiri4 {
+        transform: translate(175%, 110%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+
+    .onigiri img {
+        max-width: 100%;
+        width: 100px;
+        transition: 1s;
+    }
+
+    #text1 {
+        transform: translate(80%, -155%);
+    }
+    
+    #text2 {
+        transform: translate(43%, -160%);
+    }
+    
+    #text3 {
+        transform: translate(30%, -265%);
+    }
+    
+    #text4 {
+        transform: translate(80%, -155%);
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #onigiri1 {
+        transform: translate(-175%, 105%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-60%, 105%);
+    }
+    
+    #onigiri3 {
+        transform: translate(60%, 105%);
+    }
+    
+    #onigiri4 {
+        transform: translate(175%, 105%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    #onigiri1 {
+        transform: translate(-175%, 103%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-60%, 103%);
+    }
+    
+    #onigiri3 {
+        transform: translate(60%, 103%);
+    }
+    
+    #onigiri4 {
+        transform: translate(175%, 103%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    #onigiri1 {
+        transform: translate(-175%, 100%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-60%, 100%);
+    }
+    
+    #onigiri3 {
+        transform: translate(60%, 100%);
+    }
+    
+    #onigiri4 {
+        transform: translate(175%, 100%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    #onigiri1 {
+        transform: translate(-175%, 98%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-60%, 98%);
+    }
+    
+    #onigiri3 {
+        transform: translate(60%, 98%);
+    }
+    
+    #onigiri4 {
+        transform: translate(175%, 98%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #onigiri1 {
+        transform: translate(-175%, 93%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-60%, 93%);
+    }
+    
+    #onigiri3 {
+        transform: translate(60%, 93%);
+    }
+    
+    #onigiri4 {
+        transform: translate(175%, 93%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .text {
+        font-size: 11px;
+    }
+
+    #onigiri1 {
+        transform: translate(-175%, 120%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-60%, 120%);
+    }
+    
+    #onigiri3 {
+        transform: translate(60%, 120%);
+    }
+    
+    #onigiri4 {
+        transform: translate(175%, 120%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+
+    .onigiri img {
+        max-width: 100%;
+        width: 80px;
+        transition: 1s;
+    }
+
+    #text1 {
+        transform: translate(85%, -160%);
+    }
+    
+    #text2 {
+        transform: translate(43%, -160%);
+    }
+    
+    #text3 {
+        transform: translate(32%, -260%);
+    }
+    
+    #text4 {
+        transform: translate(80%, -155%);
+    }
+}
+
+@media screen and (max-width: 460px) {
+    #onigiri1 {
+        transform: translate(-175%, 115%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-60%, 115%);
+    }
+    
+    #onigiri3 {
+        transform: translate(60%, 115%);
+    }
+    
+    #onigiri4 {
+        transform: translate(175%, 115%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 445px) {
+    #onigiri1 {
+        transform: translate(-175%, 110%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-60%, 110%);
+    }
+    
+    #onigiri3 {
+        transform: translate(60%, 110%);
+    }
+    
+    #onigiri4 {
+        transform: translate(175%, 110%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    #onigiri1 {
+        transform: translate(-175%, 105%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-60%, 105%);
+    }
+    
+    #onigiri3 {
+        transform: translate(60%, 105%);
+    }
+    
+    #onigiri4 {
+        transform: translate(175%, 105%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    #onigiri1 {
+        transform: translate(-175%, 100%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-60%, 100%);
+    }
+    
+    #onigiri3 {
+        transform: translate(60%, 100%);
+    }
+    
+    #onigiri4 {
+        transform: translate(175%, 100%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    #onigiri1 {
+        transform: translate(-175%, 95%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-60%, 95%);
+    }
+    
+    #onigiri3 {
+        transform: translate(60%, 95%);
+    }
+    
+    #onigiri4 {
+        transform: translate(175%, 95%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #onigiri1 {
+        transform: translate(-175%, 90%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-60%, 90%);
+    }
+    
+    #onigiri3 {
+        transform: translate(60%, 90%);
+    }
+    
+    #onigiri4 {
+        transform: translate(175%, 90%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .text {
+        font-size: 11px;
+    }
+
+    #onigiri1 {
+        transform: translate(-175%, 100%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-60%, 100%);
+    }
+    
+    #onigiri3 {
+        transform: translate(60%, 100%);
+    }
+    
+    #onigiri4 {
+        transform: translate(175%, 100%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+
+    .onigiri img {
+        max-width: 100%;
+        width: 70px;
+        transition: 1s;
+    }
+
+    #text1 {
+        transform: translate(85%, -160%);
+    }
+    
+    #text2 {
+        transform: translate(43%, -160%);
+    }
+    
+    #text3 {
+        transform: translate(32%, -260%);
+    }
+    
+    #text4 {
+        transform: translate(80%, -155%);
+    }
+}
+
+@media screen and (max-width: 361px) {
+    #onigiri1 {
+        transform: translate(-175%, 95%);
+    }
+    
+    #onigiri2 {
+        transform: translate(-60%, 95%);
+    }
+    
+    #onigiri3 {
+        transform: translate(60%, 95%);
+    }
+    
+    #onigiri4 {
+        transform: translate(175%, 95%);
+    }
+
+    .onigiri {
+        transition: 0.5s;
+    }
+
+    .footer {
+        font-size: 14px;
+    }
+}

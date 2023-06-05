@@ -1,0 +1,20 @@
+img {
+  width: 100%;
+}
+
+#onigiri3 img {
+  transform: scale(1.2);
+  opacity: 0.3;
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+}
+
+#content3 {
+  opacity: 1;
+}
+
+@media screen and (max-width: 1010px) {
+  #onigiri3 img {
+    transform: scale(1.0);
+  }
+}
