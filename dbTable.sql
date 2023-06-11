@@ -8,7 +8,7 @@ create table user(
     password varchar(60)
 );
 
-create table order(
+create table order_log(
     order_id int primary key auto_increment not null,
     userid int(11),
     q_noriAS int(10),
