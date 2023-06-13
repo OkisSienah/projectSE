@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/templateform.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Sign Up | Tabe Nori</title>
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <?php include 'signupconf.php'; ?>
+    <div class="container min-vh-100 d-flex justify-content-center align-items-center">
+      <form action="<?php $_SERVER["PHP_SELF"]?>" method="POST">
+        <h1 class="text-center mb-4">Sign Up</h1>
+        <p class="warning text-align-center"><?php if (isset($msg)) { echo $msg; }; ?></p>
+        <input class="form-control mb-4" type="text" name="fname" id="" placeholder="Enter Fullname"><br>
+        <input class="form-control mb-4" type="text" name="nickname" id="" placeholder="Enter Nickname"><br>
+        <input class="form-control mb-4" type="date" name="bdate" id="" ><br>
+        <select class="form-select form-select-lg mb-4" id="gender" name="gender"><br>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select><br>
+        <input class="form-control mb-4" type="text" name="address" id="" placeholder="Enter Address"><br>
+        <input class="form-control mb-4" type="text" name="username" id="" placeholder="Enter Username"><br>
+        <input class="form-control mb-4" type="password" name="password" id="" placeholder="Enter Password"><br>
+      
+        <button class="mb-3" name="signup">Sign Up</button>
+        <p>Already have an account? <a href="login.php" class="text-decoration-none">Login Here!</a></p>
+      </form>
+    </div>
+  </body>
+</html>
