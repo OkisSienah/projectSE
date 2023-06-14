@@ -1,0 +1,28 @@
+table, th, td {
+    border:1px solid black;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th, td {
+    text-align: center;
+}
+
+th {
+    padding: 10px;
+    background-color: #F4EEDF;
+}
+
+td {
+    padding: 5px;
+}
+
+@media screen and (max-width: 966px) {
+    .topnav {
+        display: block;
+    }
+}
