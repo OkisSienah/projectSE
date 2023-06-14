@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="../css/orderCheckOut.css">
     <link rel="stylesheet" href="../css/template.css">
     <link rel="stylesheet" href="../css/media.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Order | Tabe Nori</title>
+    <title>CheckOut | Tabe Nori</title>
   </head>
   <body>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <?php include 'checkOutconf.php'; ?>
     <div class="topnav" id="topnav">
       <nav>
@@ -19,14 +19,15 @@
           <a href="home.php"><img src="../assets/logo.png" alt="Logo"></a>
         </div>
         <ul class="menu">
-          <li><a href="aboutUs.html">About Us</a></li>
           <li><a href="menu.html">Menu</a></li>
           <li><a href="order.php">Order Now</a></li>
+          <li><a href="history.php">History</a></li>
           <li><a href="logout.php">Logout</a></li>
         </ul>
       </nav>
     </div>
     <form class="checkOutBox" action="<?php $_SERVER["PHP_SELF"]?>" method="post">
+        <?php if(isset($msg)) echo $msg; ?>
         <table>
             <tr>
                 <th>Onigiri Name</th>
@@ -38,7 +39,7 @@
                 <td><?php echo $q_noriAS;?></td>
                 <td><?php echo "Rp. $onigiri1_text";?></td>
             </tr>
-            <tr>
+            <tr style="background-color: rgb(190, 190, 190);">
                 <td><?php echo $onigiri2;?></td>
                 <td><?php echo $q_noriIT;?></td>
                 <td><?php echo "Rp. $onigiri2_text";?></td>
@@ -48,15 +49,15 @@
                 <td><?php echo $q_noriTM;?></td>
                 <td><?php echo "Rp. $onigiri3_text";?></td>
             </tr>
-            <tr>
+            <tr style="background-color: rgb(190, 190, 190);">
                 <td><?php echo $onigiri4;?></td>
                 <td><?php echo $q_noriR;?></td>
                 <td><?php echo "Rp. $onigiri4_text";?></td>
             </tr>
             <tr>
-                <td>Total</td>
-                <td><?php echo $quantityTotal;?></td>
-                <td><?php echo "Rp. $totalPrice_text";?></td>
+                <td style="font-weight: 600;">Total</td>
+                <td style="font-weight: 600;"><?php echo $quantityTotal;?></td>
+                <td style="font-weight: 600;"><?php echo "Rp. $totalPrice_text";?></td>
             </tr>
             <tr>
                 <td colspan="3"><button name="checkOut">Check Out</button></td>
@@ -73,9 +74,11 @@
         <i class="fa fa-instagram"></i><div class="instagram"><a href="https://www.instagram.com/tabe_nori/">@tabe_nori1</a></div>
       </div>
       <div class="footer-right">
-      <div class="privacy-policy"><a href="privacy-policy.html">Privacy Policy</a></div>
+        <div class="privacy-policy"><a href="privacy-policy.html">Privacy Policy</a></div>
         <div class="faq"><a href="faq.html">FAQ</a></div>
+        <div class='about'><a href='aboutUs.html'>About Us</a></div>
       </div>
     </div>
   </body>
+  <script src="../js/script.js"></script>
 </html>

@@ -42,9 +42,9 @@
                     icon: 'error',
                     timer: 2000,
                     confirmButtonText: 'OK'
-                  });</script>"; // Masih Error Nih Alertnya!
+                  });</script>";
             } else {
-                $queryReg = "INSERT INTO user (fname, nickname, bdate, gender, address, username, password) VALUES ('$fname', '$nickname', '$bdate', '$gender', '$address', '$username', '$hash')";
+                $queryReg = "INSERT INTO user (fname, nickname, bdate, gender, address, username, userpass) VALUES ('$fname', '$nickname', '$bdate', '$gender', '$address', '$username', '$hash')";
                 mysqli_query($conn, $queryReg) or die ('Error, query failed ' . mysqli_error($conn));
                     
                 mysqli_close($conn);

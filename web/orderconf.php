@@ -16,9 +16,23 @@
             if(isset($dataCart['user']) == $user) {
                 $queryUpdate = "UPDATE cart SET q_noriAS = '$qOnigiri1' WHERE user = '$user'";
                 mysqli_query($conn, $queryUpdate) or die ('Error, query failed1. ' . mysqli_error($conn));
+                $msg = "<script>Swal.fire({
+                    title: 'Success!',
+                    text: 'Update Cart Successfully!',
+                    icon: 'success',
+                    timer: 1500,
+                    confirmButtonText: 'Oke'
+                  });</script>";
             } else {
                 $queryCart = "INSERT INTO cart (user, q_noriAS) VALUES ('$user','$qOnigiri1')";
                 mysqli_query($conn, $queryCart) or die ('Error, query failed2. ' . mysqli_error($conn));
+                $msg = "<script>Swal.fire({
+                    title: 'Success!',
+                    text: 'Add to Cart Successfully!',
+                    icon: 'success',
+                    timer: 1500,
+                    confirmButtonText: 'Oke'
+                  });</script>";
             }
             
             
@@ -35,9 +49,23 @@
             if(isset($dataCart['user']) == $user) {
                 $queryUpdate = "UPDATE cart SET q_noriIT = '$qOnigiri2' WHERE user = '$user'";
                 mysqli_query($conn, $queryUpdate) or die ('Error, query failed1. ' . mysqli_error($conn));
+                $msg = "<script>Swal.fire({
+                    title: 'Success!',
+                    text: 'Update Cart Successfully!',
+                    icon: 'success',
+                    timer: 1500,
+                    confirmButtonText: 'Oke'
+                  });</script>";
             } else {
                 $queryCart = "INSERT INTO cart (user, q_noriIT) VALUES ('$user', '$qOnigiri2')";
                 mysqli_query($conn, $queryCart) or die ('Error, query failed2. ' . mysqli_error($conn));
+                $msg = "<script>Swal.fire({
+                    title: 'Success!',
+                    text: 'Add to Cart Successfully!',
+                    icon: 'success',
+                    timer: 1500,
+                    confirmButtonText: 'Oke'
+                  });</script>";
             }
             
             
@@ -54,9 +82,23 @@
             if(isset($dataCart['user']) == $user) {
                 $queryUpdate = "UPDATE cart SET q_noriTM = '$qOnigiri3' WHERE user = '$user'";
                 mysqli_query($conn, $queryUpdate) or die ('Error, query failed1. ' . mysqli_error($conn));
+                $msg = "<script>Swal.fire({
+                    title: 'Success!',
+                    text: 'Update Cart Successfully!',
+                    icon: 'success',
+                    timer: 1500,
+                    confirmButtonText: 'Oke'
+                  });</script>";
             } else {
                 $queryCart = "INSERT INTO cart (user, q_noriTM) VALUES ('$user', '$qOnigiri3')";
                 mysqli_query($conn, $queryCart) or die ('Error, query failed2. ' . mysqli_error($conn));
+                $msg = "<script>Swal.fire({
+                    title: 'Success!',
+                    text: 'Add to Cart Successfully!',
+                    icon: 'success',
+                    timer: 1500,
+                    confirmButtonText: 'Oke'
+                  });</script>";
             }
 
             mysqli_close($conn);
@@ -72,9 +114,23 @@
             if(isset($dataCart['user']) == $user) {
                 $queryUpdate = "UPDATE cart SET q_noriR = '$qOnigiri4' WHERE user = '$user'";
                 mysqli_query($conn, $queryUpdate) or die ('Error, query failed1. ' . mysqli_error($conn));
+                $msg = "<script>Swal.fire({
+                    title: 'Success!',
+                    text: 'Update Cart Successfully!',
+                    icon: 'success',
+                    timer: 1500,
+                    confirmButtonText: 'Oke'
+                  });</script>";
             } else {
                 $queryCart = "INSERT INTO cart (user, q_noriR) VALUES ('$user','$qOnigiri4')";
                 mysqli_query($conn, $queryCart) or die ('Error, query failed2. ' . mysqli_error($conn));
+                $msg = "<script>Swal.fire({
+                    title: 'Success!',
+                    text: 'Add to Cart Successfully!',
+                    icon: 'success',
+                    timer: 1500,
+                    confirmButtonText: 'Oke'
+                  });</script>";
             }
             
             mysqli_close($conn);
@@ -93,15 +149,33 @@
             if(isset($dataCart['user']) == $user) {
                 $queryUpdate = "UPDATE cart SET q_noriAS = '$qOnigiri1', q_noriIT = '$qOnigiri2', q_noriTM = '$qOnigiri3', q_noriR = '$qOnigiri4' WHERE user = '$user'";
                 mysqli_query($conn, $queryUpdate) or die ('Error, query failed1. ' . mysqli_error($conn));
+                $msg = "<script>Swal.fire({
+                    title: 'Success!',
+                    text: 'Update Cart Successfully!',
+                    icon: 'success',
+                    timer: 1500,
+                    confirmButtonText: 'Oke'
+                  });</script>";
             } else {
                 $queryCart = "INSERT INTO cart (user, q_noriAS, q_noriIT, q_noriTM, q_noriR) VALUES ('$user','$qOnigiri1', '$qOnigiri2', '$qOnigiri3', '$qOnigiri4')";
                 mysqli_query($conn, $queryCart) or die ('Error, query failed2. ' . mysqli_error($conn));
+                $msg = "<script>Swal.fire({
+                    title: 'Success!',
+                    text: 'Add to Cart Successfully!',
+                    icon: 'success',
+                    timer: 1500,
+                    confirmButtonText: 'Oke'
+                  });</script>";
             }
             
             mysqli_close($conn);
         }
         $onigiriPrice = 13000;
         $onigiriFormatPrice = number_format($onigiriPrice, 2, '.', ',');
+    }
+
+    if(isset($_POST['chgPage'])) {
+        header('location:checkOut.php');
     }
 ?>
 

@@ -36,6 +36,15 @@
     $totalPrice = $priceOnigiriAS + $priceOnigiriIT + $priceOnigiriTM + $priceOnigiriR;
     $totalPrice_text = number_format($totalPrice, 2, '.', ',');
 
+    $checkID = "SELECT order_id FROM order_log";
+    $validate = mysqli_query($conn, $checkID) or die ('Error, query failed username '. mysqli_error($conn));
+    $output = mysqli_fetch_array($validate);
+
+    if(empty($output)) {
+        $resetID = "truncate order_log";
+        $execute = mysqli_query($conn, $resetID) or die ('Error, query failed username '. mysqli_error($conn));
+    }                                
+            
     if(isset($_POST['checkOut']) && $totalPrice != 0) {
         include 'config.php';
         $selectOrder = "SELECT order_id from order_log";
@@ -60,6 +69,14 @@
         $onigiri3_text = number_format(0, 2, ',', '.');
         $onigiri4_text = number_format(0, 2, ',', '.');
         $totalPrice_text = number_format(0, 2, ',', '.');
+
+        $msg = "<script>Swal.fire({
+            title: 'Success!',
+            text: 'Check Out Successfully',
+            icon: 'success',
+            timer: 1500,
+            confirmButtonText: 'Oke'
+          });</script>";
 
         mysqli_close($conn);
     }

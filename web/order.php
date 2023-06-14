@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="../css/orderCheckOut.css">
     <link rel="stylesheet" href="../css/template.css">
     <link rel="stylesheet" href="../css/media.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Order | Tabe Nori</title>
   </head>
   <body>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <?php include 'orderconf.php'; ?>
     <div class="topnav" id="topnav">
       <nav>
@@ -19,15 +19,16 @@
           <a href="home.php"><img src="../assets/logo.png" alt="Logo"></a>
         </div>
         <ul class="menu">
-          <li><a href="aboutUs.html">About Us</a></li>
           <li><a href="menu.html">Menu</a></li>
           <li><a href="order.php">Order Now</a></li>
+          <li><a href="history.php">History</a></li>
           <li><a href="logout.php">Logout</a></li>
         </ul>
       </nav>
     </div>
     <div class="content-box">
       <form class="card-box" action="<?php $_SERVER["PHP_SELF"]?>" method="post">
+        <p class="alert text-align-center position-absolute"><?php if (isset($msg)) { echo $msg; }; ?></p>
         <div class="card">
           <img src="../assets/AyamSuwir.png" alt="">
           <label for="Onigiri Ayam Suwir">Onigiri Ayam Suwir</label>
@@ -62,7 +63,7 @@
         
         <div class="button-box">
           <button name="addAllToCart">Add All to Cart</button>
-          <button><a href="checkOut.php">Check Out Here!</a></button>
+          <button name="chgPage">Check Out Here!</button>
         </div>
       </form>
     </div>
@@ -76,9 +77,11 @@
         <i class="fa fa-instagram"></i><div class="instagram"><a href="https://www.instagram.com/tabe_nori/">@tabe_nori1</a></div>
       </div>
       <div class="footer-right">
-      <div class="privacy-policy"><a href="privacy-policy.html">Privacy Policy</a></div>
+        <div class="privacy-policy"><a href="privacy-policy.html">Privacy Policy</a></div>
         <div class="faq"><a href="faq.html">FAQ</a></div>
+        <div class='about'><a href='aboutUs.html'>About Us</a></div>
       </div>
     </div>
   </body>
+  <script src="../js/script.js"></script>
 </html>
