@@ -20,7 +20,7 @@
     $q_noriIT = isset($dataPullCart['q_noriIT']) ? $dataPullCart['q_noriIT'] : 0;
     $q_noriTM = isset($dataPullCart['q_noriTM']) ? $dataPullCart['q_noriTM'] : 0;
     $q_noriR = isset($dataPullCart['q_noriR']) ? $dataPullCart['q_noriR'] : 0;
-    $quantityTotal = $q_noriAS + $q_noriIT + $q_noriIT + $q_noriR;
+    $quantityTotal = $q_noriAS + $q_noriIT + $q_noriTM + $q_noriR;
 
     $priceOnigiriAS = $onigiriPrice * $q_noriAS;
     $priceOnigiriIT = $onigiriPrice * $q_noriIT;
