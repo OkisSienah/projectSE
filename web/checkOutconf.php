@@ -56,14 +56,11 @@
         mysqli_query($conn, $queryPay);
         mysqli_query($conn, $queryClear);
 
-        $priceOnigiriAS = 0;
-        $priceOnigiriIT = 0;
-        $priceOnigiriTM = 0;
-        $priceOnigiriR = 0;
         $q_noriAS = 0;
         $q_noriIT = 0;
         $q_noriTM = 0;
         $q_noriR = 0;
+        $quantityTotal = 0;
         $onigiri1_text = number_format(0, 2, ',', '.');
         $onigiri2_text = number_format(0, 2, ',', '.');
         $onigiri3_text = number_format(0, 2, ',', '.');
