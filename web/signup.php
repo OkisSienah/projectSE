@@ -3,20 +3,28 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon-tabenori.png">
+    <link rel="stylesheet" href="style/templateform.css">
+    <link rel="stylesheet" href="style/media.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/templateform.css">
     <title>Sign Up | Tabe Nori</title>
   </head>
   <body>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <?php include 'signupconf.php'; ?>
+    <?php 
+      require 'function/functions.php';
+      require 'function/queryRegLog.php';
+
+      if(isset($_POST['signup'])) { 
+        if(userRegister($_POST) > 0);
+      }
+    ?>
     <div class="container min-vh-100 d-flex justify-content-center align-items-center" id="container1">
       <img src="../assets/logo.png" alt="">
       <form action="<?php $_SERVER["PHP_SELF"]?>" method="POST" id="form1">
         <h1 class="text-center mb-4">Sign Up</h1>
         <p class="warning text-align-center"><?php if (isset($msg)) { echo $msg; }; ?></p>
         <input class="form-control mb-4" type="text" name="fname" id="" placeholder="Enter Fullname"><br>
-        <input class="form-control mb-4" type="text" name="nickname" id="" placeholder="Enter Nickname"><br>
         <input class="form-control mb-4" type="date" name="bdate" id="" ><br>
         <select class="form-select form-select-lg mb-4" id="gender" name="gender"><br>
           <option value="Male">Male</option>

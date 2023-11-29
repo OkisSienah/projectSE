@@ -13,14 +13,12 @@
   </head>
   <body>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <?php 
-      session_start();
-      require 'function/functions.php';
-    
-      if(!isset($_SESSION['userid'])) {
-          header('location:guestCheckOut.php');
-      } else {
-          $user = $_SESSION['userid'];
+    <?php  
+      require 'function/functions.php'; 
+      require 'function/query.php';
+      
+      if(isset($_SESSION['userid'])) {
+        header('location:checkOut.php');
       }
     ?>
     <div class="topnav" id="topnav">
@@ -99,9 +97,9 @@
         <i class="fa fa-instagram"></i><div class="instagram"><a target="_blank" href="https://www.instagram.com/tabe_nori.p2mw/">@tabe_nori</a></div>
       </div>
       <div class="footer-right">
-        <div class="privacy-policy"><a href="userPrivacy.html">Privacy Policy</a></div>
+        <div class="privacy-policy"><a href="guestPrivacy.html">Privacy Policy</a></div>
         <div class="faq"><a href="faq.html">FAQ</a></div>
-        <div class='about'><a href='userAboutUs.html'>About Us</a></div>
+        <div class='about'><a href='guestAboutUs.html'>About Us</a></div>
       </div>
     </div>
   </body>
