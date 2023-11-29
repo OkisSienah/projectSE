@@ -46,6 +46,10 @@ button:hover  {
     border: solid 2px black;
 }
 
+.box {
+    width: 50vw;
+}
+
 @media screen and (max-width: 1280px) {
     form {
         width: 50%;

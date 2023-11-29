@@ -1,4 +1,5 @@
 /* Media Screen */
+
 /* Resolution 1024 x 720 */
 
 @media screen and (max-width: 1024px) and (max-height:720px) {
@@ -8,26 +9,23 @@
 }
 
 /* Resolution 1280 x 720 */
-
-@media screen and (max-width: 1280px) and (max-height:720px) {
-    .button-box button {
-        transform: translateY(500%);
-    }
-}
-
 @media screen and (max-width: 964px) and (max-height:720px) {
     nav {
         height: 60vh;
     }
 }
 
-@media screen and (max-width: 800px) and (max-height:720px) {
-    .card {
-        width: 20%;
+/* Resolution 1920 x 1080 */
+@media screen and (max-height: 1080px) {
+    .content-box {
+        min-height: 70vh;
+    }
+
+    .btn-box {
+        margin-top: 20px;
     }
 }
 
-/* Resolution 1920 x 1080 */
 @media screen and (max-width: 1669px) {
     #onigiri1 {
         transform: translate(-300%, 189%);
@@ -157,6 +155,12 @@
 
     .onigiri {
         transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 1460px) {
+    .footer {
+        margin-top: auto;
     }
 }
 
@@ -592,23 +596,8 @@
 }
 
 @media screen and (max-width: 965px) {
-    .logo {
-        text-align: center;
-    }
-
-    nav {
-        display: block;
-        position: relative;
-    }
-
-    .menu {
-        display: block;
-        text-align: center;
-        height: 24.5vh;
-    }
-
-    .menu a {
-        font-size: 20px;
+    .navbar-nav a {
+        font-size: 18px;
     }
 
     #onigiri1 {
@@ -647,6 +636,30 @@
         padding: 5px;
         width: 100%;
         display: block;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .flex .card {
+        width: 45vw;
+        padding: 10px;
+    }
+
+    .identity {
+        margin-bottom: 5px;
+    }
+
+    .identity input {
+        width: 60vw;
+    }
+
+    .btn-box {
+        bottom: 20px;
     }
 }
 
@@ -782,6 +795,16 @@
     }
 }
 
+@media screen and (max-width: 844px) {
+    #form1 {
+        width: 60%;
+    }
+
+    .container img {
+        width: 80%;
+    }
+}
+
 @media screen and (max-width: 834px) {
     .text {
         font-size: 20px;
@@ -896,6 +919,22 @@
     }
 }
 
+@media screen and (max-width: 767px) {
+    form {
+        width: 100%;
+    }
+
+    .container img {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 755px) {
+    #form1 {
+        width: 80%;
+    }
+}
+
 @media screen and (max-width: 750px) {
     #onigiri1 {
         transform: translate(-175%, 85%);
@@ -982,6 +1021,14 @@
     .onigiri {
         transition: 0.5s;
     }
+    
+    .container img {
+        width: 100%;
+    }
+
+    form {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 690px) {
@@ -1049,6 +1096,7 @@
         transition: 0.5s;
     }
 }
+
 
 @media screen and (max-width: 647px) {
     #onigiri1 {
@@ -1184,9 +1232,12 @@
     .onigiri {
         transition: 0.5s;
     }
+
+    
 }
 
 @media screen and (max-width: 560px) {
+
     .text {
         font-size: 16px;
     }
@@ -1231,6 +1282,12 @@
     
     #text4 {
         transform: translate(80%, -155%);
+    }
+}
+
+@media screen and (max-width: 554px) {
+    .MenuOnigiri img {
+        margin: auto;
     }
 }
 
@@ -1345,6 +1402,14 @@
 }
 
 @media screen and (max-width: 480px) {
+    .logo img {
+        width: 200px;
+    }
+    
+    .navbar-nav .nav-link { 
+        font-size: 15px;
+    }
+
     .text {
         font-size: 11px;
     }
@@ -1376,19 +1441,19 @@
     }
 
     #text1 {
-        transform: translate(85%, -160%);
+        transform: translate(100%, -170%);
     }
     
     #text2 {
-        transform: translate(43%, -160%);
+        transform: translate(53%, -170%);
     }
     
     #text3 {
-        transform: translate(32%, -260%);
+        transform: translate(45%, -290%);
     }
     
     #text4 {
-        transform: translate(80%, -155%);
+        transform: translate(95%, -170%);
     }
 }
 
@@ -1411,6 +1476,14 @@
 
     .onigiri {
         transition: 0.5s;
+    }
+
+    .navbar-brand #id {
+        width: 100px;
+    }
+
+    form {
+        width: 85%;
     }
 }
 
@@ -1522,6 +1595,8 @@
     .onigiri {
         transition: 0.5s;
     }
+
+
 }
 
 @media screen and (max-width: 380px) {
